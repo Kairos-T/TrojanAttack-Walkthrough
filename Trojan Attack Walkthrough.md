@@ -6,3 +6,5 @@ This is a walkthrough of the deployment of a trojan using ProRAT on an unpatched
 2. Windows 11 VM (Attacker's Platform) installed with ProRAT
 3. Windows 10 VM (Victim's Platform): Unpatched Windows 10 virtual machne that simulates a vulnerable system
 4. Network Configuration: Set up virtual networking environment to establish communication between attacker and victim's VM through using NAT.
+
+### Step 1: 
