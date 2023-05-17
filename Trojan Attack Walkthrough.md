@@ -10,14 +10,16 @@ This is a walkthrough of the deployment of a trojan using ProRAT on an unpatched
 ### Steps: 
 1. Ensure that both VMs are using NAT as Network Adapter. 
 2. Disable Firewall & Network Protection and Virus & Threat Protection Settings for both VMs from Windows Security. <br>  
-![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/a494786e-8ccd-4e73-ae5a-33f32bd75529)
-![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/831c0b18-3630-4cd9-a55c-3c150d4537ac)
-<br> Turn off all these: <br>
-![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/9a2f1d78-e29d-47b8-a9c1-a7229d3a672e)
-<br> Turn off all three networks' firewall. <br>
 
-![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/8d9a386f-e2b6-48b5-9b4e-97fc842e4729)
-![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/7824757d-4d29-494d-bbc9-47ca5488e67d)
+<br> Turn off all these: <br>
+![Screenshot 2023-05-17 160817](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/f0a10749-06a3-4f04-910e-dafc466a6f01)
+
+![Screenshot 2023-05-17 160924](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/51f8521e-0e4a-46c2-9f1c-c01a177678db)
+
+![Screenshot 2023-05-17 160938](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/4c14cf85-3643-4461-acdd-78c000b8edcf)
+<br> Turn off all three networks' firewall. <br>
+![Screenshot 2023-05-17 161023](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/a1c79c75-dc62-4dd3-b76c-65d1b9aaa541)
+![Screenshot 2023-05-17 161011](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/e60d21de-da63-44d2-83be-be8350172e74)
 <br>
 
 3. Download Prorat [zip file](https://prorat.software.informer.com/1.9/) on attacker machine.
@@ -27,7 +29,7 @@ This is a walkthrough of the deployment of a trojan using ProRAT on an unpatched
 7. Click the "Create" button at the bottom annd choose "Create ProRAT server"
 8. Click on "Bind with File", and select a file to bind (I used an image file of, you guessed it, a CAT :D )
 9. Click on server icon and choose a non-suspicious file icon.
-<br> ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/08ab0117-9a68-4573-89e8-5969e7028d81)
+<br> ![Screenshot 2023-05-17 161820](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/919b4137-496b-4e13-a214-b007476fdbbc)
 <br> (Image credits to NP :P )
 10. Click "Create Server", and use 7-zip to: Add to Archive > Select "zip" as archive format and set a password for encryption
 11. Upload file to [file sharing services](www.file.io/) and open the link in your victim machine.
@@ -38,7 +40,7 @@ in cmd to check the IPv4 address and copy it.
 ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/6ed2d667-993b-4b45-805c-205cc0ecda2e)
 
 14. On attacker's machine:
-<br> ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/f6abaf37-eb97-43ae-a3c2-480ae1334214) <br>
+<br> ![Screenshot 2023-05-17 162252](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/0a13f859-0efe-4abb-aee0-42703df9c2f7) <br>
 paste the IP address into Ip field and click connect.  (Image credits to NP :P )
 15. On the left panel, there are different functions like "Funny Stuff" to control the victim machine, like hiding desktop icons.
 <br> ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/e0cd8e7a-4014-4870-9d57-b090ac7f38d9) <br>
