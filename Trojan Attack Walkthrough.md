@@ -41,5 +41,5 @@ in cmd to check the IPv4 address and copy it.
 <br> ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/f6abaf37-eb97-43ae-a3c2-480ae1334214) <br>
 paste the IP address into Ip field and click connect.  (Image credits to NP :P )
 15. On the left panel, there are different functions like "Funny Stuff" to control the victim machine, like hiding desktop icons.
-<br> ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/6496c432-d39a-428b-9e8c-5f71c3c43280) <br>
+<br> ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/e0cd8e7a-4014-4870-9d57-b090ac7f38d9) <br>
 17. There is also a keylogger (keystroke logger) function that can record the interactions in the Victim machine  like what is typed on the victim's machine.
