@@ -35,6 +35,10 @@ This is a walkthrough of the deployment of a trojan using ProRAT on an unpatched
 13. On victim's machine, use command
 ``` ipconfig ``` 
 in cmd to check the IPv4 address and copy it. 
+![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/6ed2d667-993b-4b45-805c-205cc0ecda2e)
+
 14. On attacker's machine:
 <br> ![image](https://github.com/Kairos-T/TrojanAttack-Walkthrough/assets/80029462/f6abaf37-eb97-43ae-a3c2-480ae1334214) <br> (Image credits to NP :P )
 paste the IP address into Ip field and click connect. 
+15. On the left panel, there are different functions like "Funny Stuff" to control the victim machine, like hiding desktop icons.
+16. There is also a keylogger (keystroke logger) function that can record the interactions in the Victim machine  like what is typed on the victim's machine.
